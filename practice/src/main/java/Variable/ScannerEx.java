@@ -1,3 +1,5 @@
+package Variable;
+
 import java.util.*;
 
 public class ScannerEx {
