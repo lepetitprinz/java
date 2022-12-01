@@ -1,6 +1,6 @@
 package Array;
 
-public class ArrayEx2 {  // Array copy
+public class ArrayToString {  // Array copy
     public static void main(String[] args) {
         int[] arr = new int[5];
 

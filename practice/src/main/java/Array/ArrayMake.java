@@ -1,9 +1,8 @@
 package Array;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class ArrayEx1 {
+public class ArrayMake {
     public static void main(String[] args) {
         int [] score = new int[5];
         int tmp = 50;
