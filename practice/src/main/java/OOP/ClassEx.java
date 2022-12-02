@@ -10,8 +10,11 @@ class Tv {
     void channelDown() { --channel; }
 }
 
-public class TvTest {
+public class ClassEx {
     public static void main(String[] args) {
-
+        Tv t = new Tv();
+        t.channel = 7;
+        t.channelDown();
+        System.out.println("Current Channel: " + t.channel);
     }
 }
