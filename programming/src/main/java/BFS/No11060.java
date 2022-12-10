@@ -28,18 +28,6 @@ public class No11060 {
             visited[i] = false;
         }
 
-    private static void bfs() {
-        Queue<Point> queue = new LinkedList<>();
-        queue.add(new Point(0, 0));
-        visited[0] = true;
-
-        while(!queue.isEmpty()) {
-            Point p = queue.poll();
-            if (p.x == 0)
-
-            }
-
-        }
 
     }
 }
