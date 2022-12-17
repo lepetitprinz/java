@@ -1,13 +1,15 @@
+package oop;
+
 public class InstanceOf {
     public static void main(String[] args) {
         FireEngine fe = new FireEngine();
 
         if (fe instanceof FireEngine) {
-            System.out.println("This is a FireEngine instance");
+            System.out.println("This is a oop.FireEngine instance");
         }
 
-        if (fe instanceof Car) {
-            System.out.println("This is a Car instance");
+        if (fe instanceof CarNew) {
+            System.out.println("This is a oop.Car instance");
         }
 
         if (fe instanceof Object) {
@@ -18,5 +20,5 @@ public class InstanceOf {
     }
 }
 
-class Car {}
-class FireEngine extends Car {}
+class CarNew {}
+class FireEngine extends CarNew {}
