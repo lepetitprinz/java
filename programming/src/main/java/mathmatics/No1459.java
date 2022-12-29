@@ -1,4 +1,4 @@
-package Mathmatics;
+package mathmatics;
 
 import java.util.*;
 

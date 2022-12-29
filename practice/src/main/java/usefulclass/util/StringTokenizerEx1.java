@@ -14,7 +14,7 @@ public class StringTokenizerEx1 {
         }
 
         String expression = "x=100*(200+300)/2";
-        StringTokenizer st2 = new StringTokenizer(expression, "+-*/=()", false);
+        StringTokenizer st2 = new StringTokenizer(expression, "+-*/=()", false    );
 
         while (st2.hasMoreTokens()) {
             System.out.println(st2.nextToken());

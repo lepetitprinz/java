@@ -1,4 +1,4 @@
-package Greedy;
+package greedy;
 
 import java.io.IOException;
 import java.util.*;
