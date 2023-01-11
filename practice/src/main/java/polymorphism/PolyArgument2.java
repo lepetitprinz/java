@@ -24,7 +24,7 @@ class ComputerNew extends ProductNew {
     public String toString() { return "ComputerNew"; }
 }
 
-class Audio extends ProductNew {
+class   Audio extends ProductNew {
     Audio () { super(50); }
     public String toString() { return "Audio"; }
 }
